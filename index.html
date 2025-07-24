@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional CV of Do Van Huy - Fullstack Developer & Technical Leader with expertise in Java, Angular, and AI">
+    <meta name="keywords" content="CV, resume, developer, java, angular, AI, fullstack">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Do Van Huy - Professional CV">
+    <meta property="og:description" content="Fullstack Developer & Technical Leader with expertise in Java, Angular, and AI">
+    <meta property="og:image" content="assets/image/ava.jpg">
+    <meta property="og:type" content="website">
+    
+    <title>Personal CV - Huy</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/image/ava.jpg" as="image">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome with async loading -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </noscript>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 font-sans">
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-center relative overflow-hidden">
+        <!-- Thêm overlay pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')"></div>
+        </div>
+        
+        <div class="relative z-10">
+            <div class="avatar mb-8">
+                <img src="assets/image/ava.jpg" alt="Profile Avatar" 
+                     class="w-40 h-40 rounded-full mx-auto object-cover shadow-xl border-4 border-white/20"
+                     loading="lazy">
+            </div>
+            <h1 class="text-5xl font-bold text-white mb-4 tracking-tight">Do Van Huy</h1>
+            <div class="inline-block">
+                <p class="text-2xl text-blue-100 px-6 py-2 rounded-full bg-white/10 backdrop-blur-sm">
+                    <span class="mr-2">👨‍💻</span>
+                    Fullstack Developer
+                    <span class="mx-2">|</span>
+                    Technical Leader
+                </p>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container mx-auto px-4 py-8 max-w-5xl">
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6 border-b pb-2">Contact Information</h2>
+            <div class="contact-info grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="contact-item bg-white p-4 rounded-lg shadow-sm">
+                    <div class="contact-icons text-blue-600 mb-2">
+                        <i class="far fa-envelope text-xl" aria-hidden="true"></i>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-label font-medium text-gray-700">Email</div>
+                        <div class="contact-value text-gray-600">dovanhuy2298@gmail.com</div>
+                    </div>
+                </div>
+                <div class="contact-item bg-white p-4 rounded-lg shadow-sm">
+                    <div class="contact-icons text-blue-600 mb-2">
+                        <i class="fab fa-whatsapp text-xl" aria-hidden="true"></i>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-label font-medium text-gray-700">Phone</div>
+                        <div class="contact-value text-gray-600">+84 339 948 132</div>
+                    </div>
+                </div>
+                <div class="contact-item bg-white p-4 rounded-lg shadow-sm">
+                    <div class="contact-icons text-blue-600 mb-2">
+                        <i class="fas fa-map-marker-alt text-xl" aria-hidden="true"></i>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-label font-medium text-gray-700">Address</div>
+                        <div class="contact-value text-gray-600">Hanoi, Vietnam</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6 border-b pb-2">Skills</h2>
+            <div class="skills-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="skill bg-white p-4 rounded-lg shadow-sm">
+                    <div class="skill-header flex items-center mb-3">
+                        <div class="skill-icon w-8 h-8 mr-3">
+                            <img src="https://skillicons.dev/icons?i=java" alt="Java" class="w-full h-full"/>
+                        </div>
+                        <div class="skill-name font-medium text-gray-800">Java (Core + Spring)</div>
+                    </div>
+                    <div class="skill-rating">
+                        <div class="stars text-yellow-400 mb-1">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="skill-level text-sm text-gray-600">Expert</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <img src="https://skillicons.dev/icons?i=angular" alt="Angular"/>
+                        </div>
+                        <div class="skill-name">Angular</div>
+                    </div>
+                    <div class="skill-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS"/>
+                        </div>
+                        <div class="skill-name">NestJS</div>
+                    </div>
+                    <div class="skill-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <img src="https://skillicons.dev/icons?i=python" alt="Python"/>
+                        </div>
+                        <div class="skill-name">Python</div>
+                    </div>
+                    <div class="skill-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <img src="https://skillicons.dev/icons?i=html" alt="HTML5"/>
+                        </div>
+                        <div class="skill-name">HTML/CSS</div>
+                    </div>
+                    <div class="skill-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="skill-level">Expert</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <img src="https://skillicons.dev/icons?i=docker" alt="Docker"/>
+                        </div>
+                        <div class="skill-name">Docker</div>
+                    </div>
+                    <div class="skill-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <img src="https://skillicons.dev/icons?i=gitlab" alt="GitLab"/>
+                        </div>
+                        <div class="skill-name">GitLab CI/CD</div>
+                    </div>
+                    <div class="skill-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes"/>
+                        </div>
+                        <div class="skill-name">Kubernetes</div>
+                    </div>
+                    <div class="skill-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <img src="https://skillicons.dev/icons?i=aws" alt="AWS"/>
+                        </div>
+                        <div class="skill-name">AWS (basic)</div>
+                    </div>
+                    <div class="skill-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6 border-b pb-2">Experience</h2>
+            <div class="space-y-8">
+                <div class="experience-item bg-white p-6 rounded-lg shadow-sm">
+                    <p class="mb-4">
+                        <strong class="text-xl text-gray-800 block mb-2">DFT Vietnam JSC</strong>
+                        <span class="experience-role text-lg text-blue-600 block mb-1">Senior Java Developer / AI Engineer</span>
+                        <span class="date text-sm text-gray-600">03/2025 – Present</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Advanced KPI Analytics Chatbot 2.0
+                            <ul>
+                                <li>Enhanced Conversational AI System:
+                                    <ul>
+                                        <li>Implemented RAG (Retrieval Augmented Generation) architecture</li>
+                                        <li>Integrated open-source LLAMA model for improved natural language understanding</li>
+                                        <li>Developed custom knowledge base for telecom KPIs</li>
+                                    </ul>
+                                </li>
+                                <li>System Integration:
+                                    <ul>
+                                        <li>Integrated MCP for accurate real-time data retrieval</li>
+                                        <li>Built robust API integration layer</li>
+                                        <li>Implemented caching mechanisms for faster response times</li>
+                                    </ul>
+                                </li>
+                                <li>Performance Improvements:
+                                    <ul>
+                                        <li>Optimized response accuracy and relevance</li>
+                                        <li>Enhanced context handling and memory management</li>
+                                        <li>Implemented monitoring and analytics for system performance</li>
+                                    </ul>
+                                </li>
+                                <li>Tech Stack: LLAMA, LangChain, Vector DB, FastAPI, MCP Integration, Redis</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="experience-item bg-white p-6 rounded-lg shadow-sm">
+                    <p class="mb-4">
+                        <strong class="text-xl text-gray-800 block mb-2">DFT Vietnam JSC</strong>
+                        <span class="experience-role text-lg text-blue-600 block mb-1">Senior Java Developer / DevOps & AI Engineer</span>
+                        <span class="date text-sm text-gray-600">04/2024 – 03/2025</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Kizukai - Enterprise AI Analytics Platform
+                            <ul>
+                                <li>DevOps & Infrastructure:
+                                    <ul>
+                                        <li>Architected and deployed scalable AWS infrastructure</li>
+                                        <li>Implemented CI/CD pipelines for microservices deployment</li>
+                                        <li>Managed cloud resources and monitoring systems</li>
+                                    </ul>
+                                </li>
+                                <li>AI Development:
+                                    <ul>
+                                        <li>Developed MetaGPT module for automated ETL code generation:
+                                            <ul>
+                                                <li>Integrated OpenAI API for Spark code generation</li>
+                                                <li>Implemented AI agents for automated data processing</li>
+                                                <li>Optimized prompt engineering for better code generation</li>
+                                            </ul>
+                                        </li>
+                                        <li>Built AI-User Interface Integration:
+                                            <ul>
+                                                <li>Developed API endpoints for AI service communication</li>
+                                                <li>Implemented real-time data processing pipelines</li>
+                                                <li>Created user feedback loops for AI improvement</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>Tech Stack: AWS, Docker, Kubernetes, OpenAI API, Apache Spark, Python, FastAPI</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="experience-item bg-white p-6 rounded-lg shadow-sm">
+                    <p class="mb-4">
+                        <strong class="text-xl text-gray-800 block mb-2">DFT Vietnam JSC</strong>
+                        <span class="experience-role text-lg text-blue-600 block mb-1">Middle Level Java Developer / Data Engineer</span>
+                        <span class="date text-sm text-gray-600">01/2024 – 03/2024</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Customer Churn Prediction System
+                            <ul>
+                                <li>Designed and implemented automated ETL pipeline:
+                                    <ul>
+                                        <li>Built data collection workflows using Apache Airflow</li>
+                                        <li>Developed data transformation and cleaning processes</li>
+                                        <li>Implemented data storage solution with AWS S3</li>
+                                    </ul>
+                                </li>
+                                <li>Machine Learning Pipeline:
+                                    <ul>
+                                        <li>Developed predictive models for customer churn analysis</li>
+                                        <li>Created automated feature engineering processes</li>
+                                        <li>Implemented model training and evaluation pipeline</li>
+                                    </ul>
+                                </li>
+                                <li>Tech Stack: Python, Apache Airflow, AWS S3, Scikit-learn, Pandas, Docker</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="experience-item bg-white p-6 rounded-lg shadow-sm">
+                    <p class="mb-4">
+                        <strong class="text-xl text-gray-800 block mb-2">DFT Vietnam JSC</strong>
+                        <span class="experience-role text-lg text-blue-600 block mb-1">Middle Level Java Developer / AI Engineer</span>
+                        <span class="date text-sm text-gray-600">10/2023 – 12/2023</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>KPI Analytics Chatbot
+                            <ul>
+                                <li>Developed conversational AI system for telecom KPI analysis:
+                                    <ul>
+                                        <li>Built custom NLU pipeline using RASA framework</li>
+                                        <li>Implemented fast KPI data retrieval and analysis</li>
+                                        <li>Created domain-specific training data for telecom metrics</li>
+                                        <li>Integrated with business intelligence systems</li>
+                                    </ul>
+                                </li>
+                                <li>Tech Stack: RASA, Python, PostgreSQL, FastAPI, Docker</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="experience-item bg-white p-6 rounded-lg shadow-sm">
+                    <p class="mb-4">
+                        <strong class="text-xl text-gray-800 block mb-2">DFT Vietnam JSC</strong>
+                        <span class="experience-role text-lg text-blue-600 block mb-1">Middle Level Java Developer</span>
+                        <span class="date text-sm text-gray-600">01/2023 – 05/2023</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>IoT Platform for Agriculture 2.0
+                            <ul>
+                                <li>Led platform upgrade with enhanced UI/UX using Angular Material</li>
+                                <li>Implemented new features:
+                                    <ul>
+                                        <li>Interactive mapping system for sensor locations</li>
+                                        <li>Advanced reporting and analytics dashboard</li>
+                                        <li>Real-time alert system with customizable thresholds</li>
+                                    </ul>
+                                </li>
+                                <li>Performance optimization:
+                                    <ul>
+                                        <li>Improved data processing speed by implementing caching</li>
+                                        <li>Optimized database queries and indexing</li>
+                                        <li>Enhanced real-time data synchronization</li>
+                                    </ul>
+                                </li>
+                                <li>Tech Stack: ThingsBoard, Spring Boot, PostgreSQL, Angular, Leaflet Maps</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="experience-item bg-white p-6 rounded-lg shadow-sm">
+                    <p class="mb-4">
+                        <strong class="text-xl text-gray-800 block mb-2">DFT Vietnam JSC</strong>
+                        <span class="experience-role text-lg text-blue-600 block mb-1">Junior Java Developer</span>
+                        <span class="date text-sm text-gray-600">10/2021 – 12/2022</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Cloud Camera Platform
+                            <ul>
+                                <li>Developed multi-vendor camera integration system using ThingsBoard & Spring Boot</li>
+                                <li>Implemented real-time video streaming with Ant Media Server & WebSocket</li>
+                                <li>Built scalable video storage and analytics using PostgreSQL</li>
+                                <li>Integrated AI Computer Vision capabilities:
+                                    <ul>
+                                        <li>Face detection and recognition system</li>
+                                        <li>Motion detection with smart alerts</li>
+                                        <li>Real-time object detection and tracking</li>
+                                    </ul>
+                                </li>
+                                <li>Tech Stack: ThingsBoard, Spring Boot, PostgreSQL, Ant Media Server, OpenCV</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="experience-item bg-white p-6 rounded-lg shadow-sm">
+                    <p class="mb-4">
+                        <strong class="text-xl text-gray-800 block mb-2">DFT Vietnam JSC</strong>
+                        <span class="experience-role text-lg text-blue-600 block mb-1">Junior Java Developer</span>
+                        <span class="date text-sm text-gray-600">01/2021 – 10/2021</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>IoT Platform for Aquaculture
+                            <ul>
+                                <li>Built scalable IoT platform using ThingsBoard & Spring Boot</li>
+                                <li>Developed real-time monitoring system with Angular & WebSocket</li>
+                                <li>Implemented data analytics with PostgreSQL time-series</li>
+                                <li>Integrated multiple IoT sensors and devices for water quality monitoring</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="experience-item bg-white p-6 rounded-lg shadow-sm">
+                    <p class="mb-4">
+                        <strong class="text-xl text-gray-800 block mb-2">DFT Vietnam JSC</strong>
+                        <span class="experience-role text-lg text-blue-600 block mb-1">Fresher Java Developer</span>
+                        <span class="date text-sm text-gray-600">11/2019 – 06/2020</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>MBF Google Play Payment Gateway
+                            <ul>
+                                <li>Handled 100K+ daily transactions with 40% faster processing</li>
+                                <li>Integrated multiple payment providers & banking systems</li>
+                            </ul>
+                        </li>
+                        <li>Fraud Detection System
+                            <ul>
+                                <li>Built real-time processing with Node.js & MongoDB</li>
+                                <li>Reduced fraudulent calls by 75% in first month</li>
+                            </ul>
+                        </li>
+                        <li>Internal HR System
+                            <ul>
+                                <li>Full-stack: Spring Boot, Angular, MariaDB</li>
+                                <li>Automated 70% HR processes with 99.9% uptime</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="experience-item bg-white p-6 rounded-lg shadow-sm">
+                    <p class="mb-4">
+                        <strong class="text-xl text-gray-800 block mb-2">DFT Vietnam JSC</strong>
+                        <span class="experience-role text-lg text-blue-600 block mb-1">Java Research Intern</span>
+                        <span class="date text-sm text-gray-600">09/2019 – 10/2019</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Built web apps with Spring MVC & Node.js
+                            <ul>
+                                <li>Implemented RESTful APIs with 90% test coverage</li>
+                                <li>Integrated MongoDB for real-time data processing</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6 border-b pb-2">Education</h2>
+            <div class="bg-white p-6 rounded-lg shadow-sm">
+                <p class="mb-4">
+                    <strong class="text-xl text-gray-800 block mb-2">Academy of Cryptography Techniques</strong>
+                    <span class="text-lg text-blue-600">B.Eng. in Information Security (2016 – 2021)</span>
+                </p>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li>Completed a comprehensive curriculum in cybersecurity, cryptographic protocols, and system security.</li>
+                    <li>Participated in CTF competitions and research seminars related to information security.</li>
+                    <li>Graduation project focused on developing a secure web-based communication system.</li>
+                    <li>Gained solid foundational knowledge in secure coding and ethical hacking practices.</li>
+                    <li>Collaborated in teams on simulated incident response and penetration testing activities.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6 border-b pb-2">Courses</h2>
+            <div class="course-grid grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="course-item bg-white p-6 rounded-lg shadow-sm">
+                    <div class="course-icon text-blue-600 text-3xl mb-4">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="text-xl font-medium text-gray-800 mb-2">Spring Boot Masterclass</h3>
+                        <p class="course-platform text-blue-600 mb-3">Udemy</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Advanced Spring Boot concepts and best practices</li>
+                            <li>Microservices architecture and implementation</li>
+                            <li>Security, Testing, and Performance optimization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="course-item bg-white p-6 rounded-lg shadow-sm">
+                    <div class="course-icon text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-dharmachakra"></i>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="text-xl font-medium text-gray-800 mb-2">Kubernetes for Developers</h3>
+                        <p class="course-platform text-blue-600 mb-3">Udemy</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Container orchestration and deployment strategies</li>
+                            <li>Kubernetes architecture and components</li>
+                            <li>CI/CD pipeline integration</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="course-item bg-white p-6 rounded-lg shadow-sm">
+                    <div class="course-icon text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="text-xl font-medium text-gray-800 mb-2">Computer Vision and AI</h3>
+                        <p class="course-platform text-blue-600 mb-3">Udemy</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Image processing and recognition techniques</li>
+                            <li>Deep learning models for computer vision</li>
+                            <li>Real-world AI applications</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="course-item bg-white p-6 rounded-lg shadow-sm">
+                    <div class="course-icon text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="text-xl font-medium text-gray-800 mb-2">Large Language Models</h3>
+                        <p class="course-platform text-blue-600 mb-3">Udemy</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Foundation models and their applications</li>
+                            <li>Prompt engineering and fine-tuning</li>
+                            <li>LLM integration in applications</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-100 py-8 mt-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between items-center">
+                <div class="social-links space-x-4">
+                    <a href="https://github.com/dovanhuy2298" target="_blank" rel="noopener noreferrer"
+                       class="text-gray-600 hover:text-gray-900 transition-colors"
+                       aria-label="GitHub Profile">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/dovanhuy2298" target="_blank" rel="noopener noreferrer"
+                       class="text-gray-600 hover:text-gray-900 transition-colors"
+                       aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                </div>
+                
+                <p class="text-gray-600 text-sm">
+                    © 2025 Do Van Huy. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

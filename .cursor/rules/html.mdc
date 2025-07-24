@@ -1,0 +1,37 @@
+---
+description: Sử dụng khi người dùng yêu cầu các nhiệm vụ liên quan đến HTML
+alwaysApply: false
+---
+
+**Quy tắc viết trang web tĩnh bằng HTML, CSS, JavaScript:**
+
+1. **Chỉ dùng HTML, CSS, JavaScript.**
+   Không dùng React, NextJS, hay bất kỳ thư viện nào cần build.
+
+2. **Dùng TailwindCSS để tạo giao diện.**
+   Không dùng CSS viết tay hay file `.css`.
+
+3. **Code phải đầy đủ, không được thiếu gì.**
+   Không có dòng `TODO`, không để trống, không placeholder.
+
+4. **Viết code rõ ràng, dễ hiểu, không lặp lại.**
+   Tuân theo nguyên tắc DRY (Don’t Repeat Yourself).
+
+5. **Ưu tiên dễ đọc hơn là tối ưu hiệu năng.**
+   Mỗi phần nên rõ ràng và đơn giản nhất có thể.
+
+6. **Tất cả thành phần có tương tác phải có hỗ trợ cho người dùng khuyết tật (accessibility).**
+   Ví dụ: `tabindex`, `aria-label`, `onkeydown`…
+
+7. **Tên biến, hàm phải rõ ràng, mô tả đúng chức năng.**
+
+8. **Sử dụng `const` để định nghĩa hàm.**
+   Không dùng `function` truyền thống.
+
+9. **Tên hàm xử lý sự kiện phải bắt đầu bằng “handle”.**
+   Ví dụ: `handleClick`, `handleSubmit`.
+
+10. **Dùng return sớm nếu có thể (early return).**
+    Giúp code dễ đọc hơn.
+
+---
